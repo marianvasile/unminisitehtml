@@ -1,0 +1,116 @@
+* {
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+    margin: 20px auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #576574;
+    background-image: url(../img/pupin_right.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+
+}
+
+nav {
+    float: left;
+    position: fixed;
+    left: 0px;
+    width: 360;
+    height: 100%;
+    padding: 0 8px 0 30px;
+    border-right: 1px solid gray;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    background-color: #10ac84;
+   
+    font-size: 1.7em;
+}
+
+.main-nav {
+list-style: none;
+}
+a { 
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+
+aside {
+    float: left;
+    position: relative;
+    left: 360px;
+    width: 1450px;
+    padding: 0 0 0 8px;
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 16px 0 16px 0;
+    border-top: 1px solid #10ac84;
+    width: 1450px;
+    position: relative;
+    left: 360px;
+    clear: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 1.37rem;
+}
+
+th {
+    padding: 18px;
+}
+
+td { 
+    padding: 12px;
+}
+
+th,
+td {
+    border: solid 1px #e6e6e6;
+}
+
+tr {
+    background-color: #ededed;
+}
+
+.alternativ {
+    background-color: #f7f7f7;
+}
+
+#heading {
+background-color: #02ad8b;
+color: white;
+}
+
+h1 { 
+    font-size: 2rem;
+    font-weight: bold;
+    color: #576574;
+    text-shadow: 2px 2px #02ad8b;
+}
+
+p {
+    font-size: 1.37rem;
+}
+
+img {
+     border-right: 1px solid #02ad8b;
+     border-bottom: 1px solid #02ad8b;
+}
